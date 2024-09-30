@@ -1,4 +1,4 @@
-<h1>Testing Project for **PAID Online Claims Notification Module**</h1>
+# Testing Project for **PAID Online Claims Notification Module**
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
@@ -14,6 +14,7 @@ The below stories were created in Jira and describes the functional specificatio
 
 Here you can find the release that was created for this project:
 
+![Screenshot 2024-04-16 095645](https://github.com/user-attachments/assets/1ee1a0ad-b40b-4c60-a006-4ace9507d97b)
 **(inserati aici o poza cu release-ul pe care l-ati creat in jira. Atentie, release-ul nu va contine si teste, ci doar epic-uri, story-uri, task-uri, subtaskuri si bug-uri)**
 
 <h2>Testing process</h2>
