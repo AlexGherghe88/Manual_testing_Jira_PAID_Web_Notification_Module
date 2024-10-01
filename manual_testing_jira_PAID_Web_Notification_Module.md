@@ -1,4 +1,4 @@
-<h1>Testing Project for **PAID Online Claims Notification Module** </h1>
+<h1>Testing Project for PAID Online Claims Notification Module.</h1>
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
@@ -122,7 +122,8 @@ You can see bellow the report for the Daily Test Execution Progress for this pro
   <li>Based on the business requirements, test conditions were created.</li>
 </ul>
 
-The following test conditions were found:
+<p>The following test conditions were found:</p>
+
 ![image](https://github.com/user-attachments/assets/90cae9e2-e5dd-4388-a0c5-28cc543f4fa8)
 ![image](https://github.com/user-attachments/assets/81bf5997-2b1f-4201-a2e7-00d8dafbd425)
 
@@ -146,29 +147,34 @@ The following steps are performed before the test execution phase can begin:
 Test cases are executed on the created test Cycle summary: 
 ![image](https://github.com/user-attachments/assets/d8a86af0-40c9-4c6b-a0f2-3da4ec35b057)
 
-<p>Following the execution of the 16 test cases created, it was observed that for 8 test cases no defects were identified in the web application's operating mode, these cases being marked with the "PASS" status, represented in the adjacent graph by the green color.</p>
-<p>At the same time, following the execution of the test cases, defects were identified in the operation mode of the web application for the other 8 test cases, thus being marked with the "FAIL" status, represented in the attached graph by the red color.</p>
-<p>Thus, the test case execution report reflected a 50% rate of bugs identified following the execution of the defined test cases, as it can be observed in the  Test Execution Chart bellow.</p>
+<p>Following the execution of the 16 test cases created defects were identified in the functionality of the web application for 8 test cases.</p>
 
-![image](https://github.com/user-attachments/assets/785b0da7-76e0-42fc-9296-000f4be4cdef)
+The following is a summary of the bugs that have been found and reported to the development team:
 
-
-The following is a summary of the bugs that have been found:
 ![image](https://github.com/user-attachments/assets/efeca908-e08e-460b-b6d3-71bce9d5b0d5)
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
 <h3> 1.7 Test Completion</h3>
-As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
+As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team.
 
-The traceability matrix was generated and can be found here: **(inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)**
+The traceability matrix was generated and can be found here:
+
+![image](https://github.com/user-attachments/assets/c0eac9b1-6e1e-4187-942e-706622e6b30d)
+
 
 Test execution chart was generated and can be found below. 
 
-**(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
+![image](https://github.com/user-attachments/assets/2a7988be-3efe-4ca4-8b9f-fd03bf8ec5a4)
 
-The final report shows that a number **(inserati numarul de teste)** tests have failed of a total of **(inserati numarul de teste)**
 
-A number of **(inserati numarul de bug-uri)** total bugs were found, from which the priority is: **(inserati numarul de bug-uri)** are high and **(inserati numarul de bug-uri)** are medium.
+The final report shows that a number **8** tests have failed of a total of **16**.
 
-**(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
+A number of **10** total bugs were found.
+
+<p>The identified bugs do not block the user from using the web application, but affect their experience with the application, the links in the application are not set to redirect the user to the appropriate web pages and the displayed error messages are generic ones that do not explain to the user where he went wrong and what can do to fix the error.</p>
+
+<p>At the same time, there are fields where the user must enter data where the info buttons are missing to provide the user with more details about the data he must provide, and thus his experience with the application can be difficult.</p>
+
+<p>We recommend completing the business requirements with individually defined error messages for each type of error resulting from the use of the application and filling the fields with info buttons that give additional details to the user in relation to the data they must provide in the notification process of the claim within the PAID Online Claims Notice web application.</p>
+
