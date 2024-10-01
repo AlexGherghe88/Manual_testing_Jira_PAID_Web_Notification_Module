@@ -10,12 +10,17 @@ Tools used: Jira, Zephyr Squad.
 
 The below stories were created in Jira and describes the functional specifications of the **PAID Online Claims Notification Module**, for which the final project is performed upon.
 
-**inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
+![Gas 2](https://github.com/user-attachments/assets/ad5a7332-4c2d-44f4-8d41-e5b9ed8946e0)
+
+![Gas 3](https://github.com/user-attachments/assets/0ecb9f4d-9158-498c-8638-f3377e88a3a9)
+
+![Gas 4](https://github.com/user-attachments/assets/cf2089dd-166a-4e08-ac89-8f259f6186fc)
 
 Here you can find the release that was created for this project:
 
-![Screenshot 2024-04-16 095645](https://github.com/user-attachments/assets/1ee1a0ad-b40b-4c60-a006-4ace9507d97b)
-**(inserati aici o poza cu release-ul pe care l-ati creat in jira. Atentie, release-ul nu va contine si teste, ci doar epic-uri, story-uri, task-uri, subtaskuri si bug-uri)**
+![Release](https://github.com/user-attachments/assets/e7dbe729-5604-48ba-96bc-e9e076138eeb)
+
+
 
 <h2>Testing process</h2>
 
@@ -23,29 +28,45 @@ The test process was performed based on the standard test process as described b
 
 <h3>1.1 Test planning</h3>
 
-The Test Plan is designed to describe all details of testing for all the modules from the JPetStore Demo application.
+The Test Plan is designed to describe all details of testing for a**PAID Online Claims Notification Module**
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here **(inserati link catre documentul cu planul de testare)**
 
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
-**(numele persoanelor pot sa fie fictive, doar sa treceti numele vostru ca si tester)**
 <ul>
-  <li>Project manager</li> 
-  <li>Product owner</li>
-  <li>Software developer</li>
-  <li>QA Engineer</li>
+  <li>Project manager: Popescu Ioana</li> 
+  <li>Product owner: Dinu Cosmin</li>
+  <li>Software developer: Barbu Stefania</li>
+  <li>QA Engineer: Gherghe Alexandru</li>
 </ul>
 
 <h4> 1.1.2 Entry criteria defined </h4>
 
-**(enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)**
+<ul>
+  <li>We should have test environment available and be able to be accessed by all testing members</li> 
+  <li>We should have business requirements defined </li> 
+  <li>We should have the roles and responsibilities set and allocated</li> 
+  <li>We should have the Test Plan described</li> 
+  <li>Potential project risks are defined, analyzed and a mitigation plan is set</li> 
+</ul>
 
 <h4> 1.1.3 Exit criteria defined </h4>
 
-**(enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)**
+•	We should have all test cases executed
+•	We should have all major bugs closed
+•	All discovered defects were reported
+•	All business requirements were covered by test cases
+•	Potential products risks have been identified and a mitigation plan is set
 
 <h4> 1.1.4 Test scope</h4>
+
+The scope of the testing activity are the following:
+  •	to increase the quality of the web application
+  •	to identify bugs and report them to the developing team
+  •	to verify that the web application is working as per the request of the client
+  •	to identify and mitigate the product risks.
+
 
 <h5> Tests in scope: </h5>
 
