@@ -1,4 +1,4 @@
-# Testing Project for **PAID Online Claims Notification Module**
+<h1>Testing Project for **PAID Online Claims Notification Module** </h1>
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
@@ -20,8 +20,6 @@ Here you can find the release that was created for this project:
 
 ![Release](https://github.com/user-attachments/assets/e7dbe729-5604-48ba-96bc-e9e076138eeb)
 
-
-
 <h2>Testing process</h2>
 
 The test process was performed based on the standard test process as described below.
@@ -32,7 +30,7 @@ The Test Plan is designed to describe all details of testing for a**PAID Online 
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here **(inserati link catre documentul cu planul de testare)**
 
-<h4>1.1.1. Roles asigned to the project and persons allocated</h4>
+<h3>1.1.1. Roles asigned to the project and persons allocated</h3>
 
 <ul>
   <li>Project manager: Popescu Ioana</li> 
@@ -41,7 +39,7 @@ The plan identifies the items to be tested, the features to be tested, the types
   <li>QA Engineer: Gherghe Alexandru</li>
 </ul>
 
-<h4> 1.1.2 Entry criteria defined </h4>
+<h3> 1.1.2 Entry criteria defined </h3>
 
 <ul>
   <li>We should have test environment available and be able to be accessed by all testing members</li> 
@@ -51,55 +49,83 @@ The plan identifies the items to be tested, the features to be tested, the types
   <li>Potential project risks are defined, analyzed and a mitigation plan is set</li> 
 </ul>
 
-<h4> 1.1.3 Exit criteria defined </h4>
+<h3> 1.1.3 Exit criteria defined </h3>
 
-•	We should have all test cases executed
-•	We should have all major bugs closed
-•	All discovered defects were reported
-•	All business requirements were covered by test cases
-•	Potential products risks have been identified and a mitigation plan is set
+<ul>
+  <li>We should have all test cases executed</li> 
+  <li>We should have all major bugs closed</li> 
+  <li>All discovered defects were reported</li> 
+  <li>All business requirements were covered by test cases</li> 
+  <li>Potential products risks have been identified and a mitigation plan is set</li> 
+</ul>
 
-<h4> 1.1.4 Test scope</h4>
+<h3> 1.1.4 Test scope</h3>
 
-The scope of the testing activity are the following:
-  •	to increase the quality of the web application
-  •	to identify bugs and report them to the developing team
-  •	to verify that the web application is working as per the request of the client
-  •	to identify and mitigate the product risks.
+<ul>
+  <li> Increasing the quality of the web application</li>
+  <li> Identifying bugs and reporting them to the developing team</li>
+  <li> Verifying that the web application is working as per the request of the client</li>
+  <li> Identifying  and mitigating the product risks</li>
+</ul>
+
+<h4> Tests in scope: </h4>
+
+For the current testing team, the functionalities that are in scope of testing are:
+<ul>
+ <li> Welcome screen from the PAID Online Claims Notification module (cap. 2.1 - from the business requirements)</li>
+ <li> PAD Policy Validation screen, (cap. 2.2 - from the business requirements) </li>
+ <li> Damage Details screen (cap. 2.3 - from the business requirements)</li>
+</ul> 
+Throughout the testing process the testing team will perform functional testing, positive testing, negative testing, black-box testing and GUI testing.
 
 
-<h5> Tests in scope: </h5>
+<h4>Tests not in scope: </h4>
+<ul>
+<li>All the other functionality of the web application except the ones mentioned above are out of scope.</li>
+<li>Non-functional testing is out of scope.</li>
+<li>Automation testing is out of scope.</li>
+</ul> 
 
-**(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+<h3>1.1.5 Risks detected</h3>
 
-<h5>Tests not in scope: </h5>
+<h4>Project risks:</h4>
 
-**(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+<ul>
+<li> The risk of missing a large number of defects given that the tester assigned to the project has limited experience in testing web applications;</li>
+<li> Difficulties in the production launch of the web application, considering that it will be implemented on the client's web page that is developed by another company, a collaboration on its part being necessary;</li>
+<li> The risk that the business requirements are frequently changed, the client not having a clear vision of how the web application works.</li>
+</ul>
 
-<h4>1.1.5 Risks detected</h4>
+<h4> Product risks: </h4>
+<ul>
+<li>The web application presents the user with summary information about the data they must provide in the process (lack of info buttons detailing the data to be provided).</li>
+<li>Situations have been identified where if the user enters data that the application cannot process, it displays a generic error message from which the user does not understand what the problem is. The business requirements have no data on the error messages that should be displayed for these situations.</li>
+<li>The risk of inappropriate behavior in terms of the performance of the application, as it is not tested from a non-functional point of view.</li>
+</ul>
 
-<h5>Project risks:</h5>
-
-**(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)**
-
-<h5> Product risks: </h5>
-
-**(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)**
-
-<h4>1.1.6 Evaluating entry criteria</h4>
+<h3>1.1.6 Evaluating entry criteria</h3>
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
 <h3>1.2 Test Monitoring and Control<h3>
 
-**(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
+<p>During the testing periodchecks were made periodically to ensure that the testing activity is performed according to the planed schedule</p>
+<p>Also reports ware generated and sent to management to inform about quality level of the application.<br>
+You can see bellow the report for the Daily Test Execution Progress for this project. </p>
+
+![image](https://github.com/user-attachments/assets/78ea4259-b693-491b-bb6f-ac81b9fb1cbf)
 
 <h3> 1.3 Test Analysis </h3>
-The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
+<ul>
+  <li>In this phase we analyzed the business requirements to make sure we understand them, that there are no mistakes, ambiguities, inconsistencies or contradictions.</li>
+  <li>We also made suggestions for improvement on the business requirements for the decision of the customer
+  <li>Based on the business requirements, test conditions were created.</li>
+</ul>
 
-The following test conditions were found: <br>
+The following test conditions were found:
+![image](https://github.com/user-attachments/assets/90cae9e2-e5dd-4388-a0c5-28cc543f4fa8)
+![image](https://github.com/user-attachments/assets/81bf5997-2b1f-4201-a2e7-00d8dafbd425)
 
-**(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
 
 <h3>1.4 Test Design</h3>
 
@@ -107,18 +133,28 @@ Functional test cases were created in Zephyr Squad based on the analysis of the 
 
 <h3>1.5 Test Implementation</h3>
 
-The following elements are needed to be ready before the test execution phase begins:
-
-**(inserati lista de elemente care sunt evaluate in etapa de implementare)**
+The following steps are performed before the test execution phase can begin:
+<ul>
+  <li>The test environment is validated through smoke testing</li>
+  <li>We also make sure that test environment is updated with the latest changes</li>
+  <li>The test data identified in the previous step is created</li>
+  <li>We prioritize test cases written in the previous phase (based on business importance and risks)</li>
+</ul>
 
 <h3>1.6. Test Execution </h3>
 
-Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
+Test cases are executed on the created test Cycle summary: 
+![image](https://github.com/user-attachments/assets/d8a86af0-40c9-4c6b-a0f2-3da4ec35b057)
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
+<p>Following the execution of the 16 test cases created, it was observed that for 8 test cases no defects were identified in the web application's operating mode, these cases being marked with the "PASS" status, represented in the adjacent graph by the green color.</p>
+<p>At the same time, following the execution of the test cases, defects were identified in the operation mode of the web application for the other 8 test cases, thus being marked with the "FAIL" status, represented in the attached graph by the red color.</p>
+<p>Thus, the test case execution report reflected a 50% rate of bugs identified following the execution of the defined test cases, as it can be observed in the  Test Execution Chart bellow.</p>
 
-The following is a summary of the bugs that have been found
-**(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
+![image](https://github.com/user-attachments/assets/785b0da7-76e0-42fc-9296-000f4be4cdef)
+
+
+The following is a summary of the bugs that have been found:
+![image](https://github.com/user-attachments/assets/efeca908-e08e-460b-b6d3-71bce9d5b0d5)
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
