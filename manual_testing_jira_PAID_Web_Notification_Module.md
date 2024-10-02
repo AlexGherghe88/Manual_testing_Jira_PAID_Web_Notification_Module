@@ -108,7 +108,7 @@ Throughout the testing process the testing team will perform functional testing,
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-<h3>1.2 Test Monitoring and Control<h3>
+<h3>1.2 Test Monitoring and Control</h3>
 
 <p>During the testing periodchecks were made periodically to ensure that the testing activity is performed according to the planed schedule</p>
 <p>Also reports ware generated and sent to management to inform about quality level of the application.<br>
