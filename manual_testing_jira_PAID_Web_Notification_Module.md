@@ -131,7 +131,7 @@ You can see bellow the report for the Daily Test Execution Progress for this pro
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here **(inserati linkul catre fisierul cu testele, in format pdf, word sau csv)**
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed [here.](https://github.com/AlexGherghe88/Manual_testing_Jira_PAID_Web_Notification_Module/blob/main/Test%20cases%20-%20PAID%20Online%20Damage%20Notification%20Module.csv) 
 
 <h3>1.5 Test Implementation</h3>
 
